@@ -51,12 +51,14 @@ Rights: SELECT,INSERT
 `GRANT SELECT,INSERT ON wki_main.* TO 'wki_worker'@'<sever_ip>';` 
 
 The Config-File 'database_config.json' should be adapted accordingly.
+```
 {
     "USER": "wki_worker",
     "PASSWORD": "<some_password>",
     "HOST": "<sever_ip>",
     "PORT": "<server_port>"
 }
+```
 
 ### Easy access from any computer with MySQL Workbench
 	- Install MySQL Workbench
