@@ -47,6 +47,7 @@ Use local root account `sudo docker exec -it mysql-server bash`, enter server `m
 Rights: SELECT,INSERT
 
 `CREATE USER 'wki_worker'@'<sever_ip>' IDENTIFIED BY '<some_password>';`
+
 `GRANT SELECT,INSERT ON wki_main.* TO 'wki_worker'@'<sever_ip>';` 
 
 The Config-File 'database_config.json' should be adapted accordingly.
