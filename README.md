@@ -9,8 +9,11 @@ Example code provided to students 'train.py','predict.py','score.py','wettbewerb
 To Evaluate the students code the bash scripts in 'bash_scripts' were used. 
 
 Bash scripts provided must be adapted for ones needs.
+
 A folder with all datasets must be set up. For instance download the 2017 challenge dataset from physionet.org.
+
 Each dataset is a folder with one 'REFERENCES.csv' and 1 .mat file per ECG signal.
+
 After Setup and a given folder with a model of a team (folder 'example_folder' with a 'predict.py' and 'requirements.txt' is required) run:
 
 `bash score_entry.sh <team_nr> <binary> <model_name>`
