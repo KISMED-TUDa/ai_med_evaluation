@@ -46,13 +46,13 @@ use local root account and use below commands
 
 Rights: SELECT,INSERT
 
-CREATE USER 'wki_worker'@'<sever_ip>' IDENTIFIED BY '<some password>'
+CREATE USER 'wki_worker'@'<sever_ip>' IDENTIFIED BY '<some_password>'
 GRANT SELECT,INSERT ON wki_main.* TO 'wki_worker'@'<sever_ip>' 
 
 The Config-File 'database_config.json' should be adapted accordingly.
 {
     "USER": "wki_worker",
-    "PASSWORD": "<some password>",
+    "PASSWORD": "<some_password>",
     "HOST": "<sever_ip>",
     "PORT": "<server_port>"
 }
