@@ -42,7 +42,7 @@ Now test access outside docker with `mysql -u admin -h <server_ip> -P <server_po
 ### Create User for automatic database access and minimal rights
 
 
-use local root account and use below commands
+Use local root account `sudo docker exec -it mysql-server bash`, enter server `mysql -uroot -p` and use below commands
 
 Rights: SELECT,INSERT
 
