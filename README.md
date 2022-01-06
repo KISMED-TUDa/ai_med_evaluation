@@ -1,5 +1,7 @@
 # Evaluation System of the AI in Medicine Challenge
 
+The goal of the challenge was to predict atrial fibrillation from I lead ECG signals.
+
 This System was used on a Linux server to evaluate the code of the students in a semi-automatic manner. Requires an SQL Server database as described below and an Installation of Anaconda for python environments.
 
 Example code provided to students 'train.py','predict.py','score.py','wettbewerb.py','predict_pretrained.py'.
